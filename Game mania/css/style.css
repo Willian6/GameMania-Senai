@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    background-color:#000000;
+    height: 80px;
+
+}
+.container-grid{
+    width: 100%;
+    max-width:1200px ;
+    margin: 0 auto;
+    
+}
+
+.posicionamento-header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.barras{
+    width: 30px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.menu2{
+    background-color:#202235 ;
+    height: 60px;
+}
+ 
+
+.posicionamento-div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.menu3{
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .menu3 a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+ }
+
+ #carrossel img {
+    display: none;   
+  
+  }
+  .banner-ativo{
+     display: flex;
+      
+  }
+
+.banner1
+{
+    height:350px;
+    width: 100%;  
+}
+.todos .pagamentos {
+    background-color:#FFFFFF ;
+    height: 100px;
+    padding: 35px;
+}
+.posicionamento-section{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    
+    
+}
+.pagamentos{
+    width: 1100px; 
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    height: 40px;
+    width: 100px;
+  }
+    
+.pagamentos a{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px; 
+    height: 5px;
+    width: 300px;
+}
+
+.Lançamentos{
+    background-color: black;
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Lançamentos a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;  
+    
+}
+.jogos  {
+    height: 400px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ; 
+
+}
+.Destaques{
+    background-color: black;
+    height: 60px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Destaques a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;  
+}
+.gemes{
+    height: 400px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+   
+}
+.informacoes{
+    background-color:black  ;
+    height: 300px;
+    width: 100%; ;
+    
+    
+}
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;   
+}
+
+.rede{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 100px;
+   
+  
+}
+
+
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 80%;
+        max-width: 1200px; 
+    }
+
+    .menu {
+        width: 500px;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    .f{
+
+        display: none;
+    }
+    .jogos1{
+
+        height: 180px;
+        width: 180px;
+    }
+    .jogos  {
+        height: 280px;
+    }
+    .gemes{
+
+        height: 280px;
+    }
+    
+
+
+    .pagamentos {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+    
+
+    }
+    .informacoes {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+       }
+
+    
+    
+    
+}
+ @media screen and (max-width: 768px){
+    .container-grid {
+        width: 80%; 
+        max-width:768px ;
+        
+    }
+    header{
+        width: 100%;
+            
+    }
+    .menu2{
+        width: 100%;
+
+    }
+
+   .barras{
+       display: inline-block;
+   }
+
+    .menu3 {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        background-color: #000000;
+        position: absolute;
+        top: 0;
+        right: 270px;
+        margin-top: 80px;
+    }
+
+    .menu3 a{
+        text-align: center;
+        padding: 15px;
+
+    }
+    .posicionamento-header{
+
+        position: relative;
+    }
+    .menu{
+        display: none;
+        
+    }
+    .banner{
+        height: 350px;
+        width: 100%;
+    }
+   
+    .pagamentos  {
+       width: 100%;
+       height: 150px;
+       
+    }
+    .pagamentos p
+    {
+        font-size:5 px;
+
+    }
+    .p{
+      height: 60px;
+      width: 60px;
+    }
+  .Lançamentos{
+      width: 100%;
+  }
+  
+   .Destaques {
+       width: 100%;
+   }
+   
+   .jogos{
+       
+       height: 225px;
+    
+   }
+   .jogos1{
+    
+
+    height: 80%;
+    width: 80%;
+    margin: 10px;
+}
+       
+   .gemes{
+    
+    height: 250px;
+   
+   }
+
+   .informacoes{
+    display: block;
+    height: 1000px;
+ }
+
+ .footer a{
+    
+     display: flex; 
+     justify-content: center;
+     padding: 15px;
+ }
+   
+   
+  
+ }
+ @media screen and (max-width:450px){
+    .container-grid {
+        width: 80%; 
+         max-width:450px; 
+    }
+    
+    
+    .menu3 {
+        
+        left: 10px;
+        padding: 10px;
+        width: 200px;
+    } 
+    .pagamentos {
+        display: block;
+        height: 400px;
+        width: 200px;
+           
+    }
+    .jogos1{
+
+        height: 180px;
+        width: 180px;
+    }
+   
+   
+    .jogos{
+       
+        display: block;
+        height: 700px;
+        padding: 50px; 
+       
+           
+    }
+        
+    .gemes{
+        display: block;
+        height: 700px;
+        padding: 50px; 
+     
+    }
+    
+   
+
+   
+  
+ }
+ @media screen and (max-width: 320px){
+    .container-grid {
+        width: 90%;     
+        
+    }
+    .menu3 { 
+        padding: 10px;
+        width: 200px;
+    } 
+
+    .pagamentos {
+        display: block;
+        height: 400px;
+        width: 200px;
+           
+    }
+    .jogos1{
+
+        height: 180px;
+        width: 180px;
+    }
+   
+   
+    
+       
+ }

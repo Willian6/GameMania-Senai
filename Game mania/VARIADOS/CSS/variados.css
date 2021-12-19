@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    background-color:#000000;
+    height: 80px;
+
+}
+.container-grid{
+    width: 100%;
+    max-width:1200px ;
+    margin: 0 auto;
+    
+}
+
+.posicionamento-header{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.barras{
+    width: 30px;
+    color: #FFFFFF;
+    display: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.menu2{
+    background-color:#202235 ;
+    height: 60px;
+}
+ 
+
+.posicionamento-div{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.menu3{
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .menu3 a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+ }
+ 
+ .variados{
+    color:black;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.jogos  {
+    height: 500px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ; 
+ }
+ .produto2{
+
+    height: 400px; ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ; 
+ }
+ .descricao1{
+    
+        width: 218px;
+        height: 150px;
+        margin-top: 5px;
+    }
+    
+    .descricao1 p {
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .informacoes{
+        background-color:black  ;
+        height: 250px;
+        width: 100%; ;
+        
+        
+    }
+    .footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;   
+    }
+    .rede{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        padding: 100px;
+       
+      
+    }
+    
+    
+ 
+@media screen and (max-width: 1200px) {
+    .container-grid {
+        width: 80%;
+        max-width: 1200px;
+    }
+
+    .menu {
+        width: 600px;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    .barras{
+        display: none;
+    }
+   
+   
+    
+}
+ @media screen and (max-width: 768px){
+    .container-grid {
+        width: 80%; 
+        max-width:768px ;   
+    }
+    .menu{
+        display: none;
+    }
+
+    .barras{
+        display: inline-block;
+    }
+
+    .menu3 {
+        display: none;
+        flex-direction: column;
+        width: 200px;
+        background-color: #000000;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        padding: 25px;
+        margin-top: 80px;
+    }
+    
+  
+   .jogos{
+    
+    height: 450px;
+   
+   }
+   .jogos1{
+ 
+     display: none
+   }
+   
+   
+
+   .produto1{
+
+    width: 140px;
+    height: 140px;
+
+   }
+
+
+   .descricao1 p{
+    font-size: 15px;
+    width: 150px;
+   
+
+     
+}
+
+.descricao1{
+    width: 50%;
+   }  
+.informacoes{
+    display: block;
+    height: 1100px;
+ }
+
+ .footer a{
+    
+     display: flex; 
+     justify-content: center;
+     padding: 15px;
+ }
+   
+  
+ }
+ @media screen and (max-width: 320px){
+    .container-grid {
+        width:80%;     
+        
+    }
+
+    .menu3 {
+        
+        left: 15px;
+        width: 200px;
+        
+    }
+   
+   
+    .jogos{
+        display: block;
+        height: 900px;
+        padding: 50px;
+        
+    }
+    .produto2{
+       
+        display: block;
+        height: 950px;
+        padding: 50px; 
+
+    }
+    .descricao1{
+       height: 300px;
+       padding: 10px;
+       
+
+    }
+
+    
+   
+    
+ }
+ 
